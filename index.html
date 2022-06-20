@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en" class="viewport">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/logo-ico.ico">
+    <title>Axel Jiménez</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="navbar">
+            <ul class="navbar__header">
+                <li><span class="navbar__logo">
+                    <img src="assets/logo.png" alt="logo">
+                </span></li>
+                <li>
+                    <span class="navbar__menu">                
+                        <div class="icon nav-icon-5">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                          </div>                        
+                    </span>
+                </li>
+            </ul>
+            <ul class="navbar__options">
+                <li><a href="#home" class="navbar__option scroll">Inicio</a></li>
+                <li><a href="#about" class="navbar__option scroll">Sobre Mí</a></li>
+                <li><a href="#services" class="navbar__option scroll">Servicios</a></li>
+                <li><a href="#portfolio" class="navbar__option scroll">Portafolio</a></li>
+                <!-- <li><a href="#testimonials" class="navbar__option scroll">Testimonios</a></li> -->
+                <li><a href="#contact" class="navbar__option scroll">Contacto</a></li>
+            </ul>
+            <ul class="navbar__newsletter">
+                <li>Newsletter</li>
+                <li>
+                    <form action="https://formsubmit.co/gabrielmalaver565@gmail.com" method="POST" id="form-newsletter">
+                        <input type="text" placeholder="jimenezaxel565@gmail.com" name="newsletter">
+                        <button>
+                            <img src="assets/newsletter.svg" alt="newsletter">
+                        </button>
+                    </form>
+                </li>
+            </ul>
+            <ul class="navbar__copyright">
+                <li> © 2022 por <span>Axel Jimenez.</span></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Main -->
+    <main>
+        <!-- ? Section Home -->
+        <section class="home" id="home">
+            <span class="home__span">Hola soy</span>
+            <h1 class="home__title">Axel Jiménez</h1>
+            <p class="home__paragraph">Estoy feliz de <b>verte</b> por aqui</p>
+            <a href="#contact" class="home__btn scroll">
+                Contrátame 
+                <img src="assets/play.svg" alt="play">
+            </a>
+            <a href="#about" class="home__animation scroll">
+                <div class="home__animation-line"></div>
+            </a>
+        </section>
+        <!-- ? Section About -->
+        <section class="about" id="about">
+            <div class="about__img">
+                <img src="assets/about.png" alt="about" loading="lazy">
+            </div>
+            <!-- About Information -->
+            <div class="about__info">
+                <span class="about__span">Desarrollador Frontend</span>
+                <h2 class="about__title">Acerca de Mí</h2>
+                <p class="about__paragraph">¡Hola! Mi nombre es Axel Jiménez y soy un
+                    desarrollador frontend autodidacta, ademas de ser apasionado y
+                    dedicado al mundo de la web. Cuento con 2 años de experiencia como desarrollador y en
+                    este tiempo he adquirido las habilidades y conocimientos
+                    necesarios para formar parte de tu proyecto.</p>
+                <!-- About Personal Information -->
+                <div class="about__contact">
+                    <!-- Address -->
+                    <h3 class="about__address">La Asunción, Nueva Esparta, <b>Venezuela.</b></h3>
+                    <!-- Cards Personal Information -->
+                    <ul class="about__cards">
+                        <!-- Phone -->
+                        <li class="about__card">
+                            <div class="about__card-figure">
+                                <img src="assets/call.svg" alt="call" loading="lazy">
+                            </div> 
+                            <div class="about__card-info">
+                                <h4 class="about__card-title">Teléfono de contacto</h4>
+                                <p class="about__card-paragraph">Proximamente</p>
+                            </div>  
+                        </li>
+                        <!-- Email -->
+                        <li class="about__card">
+                            <div class="about__card-figure">
+                                <img src="assets/mail.svg" alt="mail" loading="lazy">
+                            </div> 
+                            <div class="about__card-info">
+                                <h4 class="about__card-title">Correo de contacto</h4>
+                                <p class="about__card-paragraph">jimenezaxel565@gmail.com</p>
+                            </div>  
+                        </li>     
+                    </ul>
+                </div>
+            </div>
+            <!-- Cards Network -->
+            <ul class="about__cards about__cards--networks">
+                <!-- Card Network Facebook -->
+                <li class="about__card about__card--network">
+                    <div class="about__card-figure">
+                        <img src="assets/facebook.png" alt="facebook">
+                    </div>
+                    <h4 class="about__card-title">Facebook</h4>
+                    <p class="about__card-paragraph">Proximamente.</p>
+                    <a href="#" class="about__card-btn scroll">
+                        <img src="assets/arrow.svg" alt="arrow">
+                    </a>
+                </li>
+                <!-- Card Network Twitter -->
+                <li class="about__card about__card--network">
+                    <div class="about__card-figure">
+                        <img src="assets/twitter.png" alt="twitter">
+                    </div>
+                    <h4 class="about__card-title">Twitter</h4>
+                    <p class="about__card-paragraph">Proximamente.</p>
+                    <a href="#" class="about__card-btn scroll">
+                        <img src="assets/arrow.svg" alt="arrow">
+                    </a>
+                </li>
+                <!-- Card Network Instagram -->
+                <li class="about__card about__card--network">
+                    <div class="about__card-figure">
+                        <img src="assets/instagram.png" alt="instagram">
+                    </div>
+                    <h4 class="about__card-title">Instagram</h4>
+                    <p class="about__card-paragraph">Proximamente.</p>
+                    <a href="#" class="about__card-btn scroll">
+                        <img src="assets/arrow.svg" alt="arrow">
+                    </a>
+                </li>
+                <!-- Card Network Githud -->
+                <li class="about__card about__card--network">
+                    <div class="about__card-figure">
+                        <img src="assets/githud.png" alt="githud">
+                    </div>
+                    <h4 class="about__card-title">Githud</h4>
+                    <p class="about__card-paragraph">Mi githud.</p>
+                    <a href="https://github.com/AxelJimz" class="about__card-btn" target="_blank">
+                        <img src="assets/arrow.svg" alt="arrow">
+                    </a>
+                </li>        
+            </ul>
+        </section>
+        <!-- ? Section Services -->
+        <section class="services" id="services">
+             <!-- Services Information -->
+            <div class="services__info">
+                <span class="services__span">¿POR QUÉ ELEGIRME?</span>
+                <h2 class="services__title">Mis Servicios Laborales</h2>
+            </div>
+             <!-- Cards Services -->
+            <ul class="services__cards">
+                <!-- Card Service 1 -->
+                <li class="services__card">
+                    <div class="services__card-figure">
+                        <img src="assets/development.png" alt="development" loading="lazy">
+                    </div>
+                    <h3 class="services__card-title">Desarrollo Frontend</h3>
+                    <p class="services__card-paragraph">Como desarrollador Frontend me encargo de llevar a cabo la maquetación de sitios web...</p>
+                    <a href="#services" class="services__card-btn scroll">
+                        <img src="assets/arrow.svg" alt="arrow" loading="lazy">
+                    </a>
+                </li>
+                <!-- Card Service 2 -->
+                <li class="services__card">
+                    <div class="services__card-figure">
+                        <img src="assets/hosting.png" alt="hosting" loading="lazy">
+                    </div>
+                    <h3 class="services__card-title">Hosting y Dominio</h3>
+                    <p class="services__card-paragraph">Ambos son elementos esenciales de un sitio web. En síntesis, el nombre...</p>
+                    <a href="#services" class="services__card-btn scroll">
+                        <img src="assets/arrow.svg" alt="arrow" loading="lazy">
+                    </a>
+                </li>
+                <!-- Card Service 3 -->
+                <li class="services__card">
+                    <div class="services__card-figure">
+                        <img src="assets/ui.png" alt="ui" loading="lazy">
+                    </div>
+                    <h3 class="services__card-title">Diseño Web</h3>
+                    <p class="services__card-paragraph">Aunque diseñar sitios web no formaba parte de mi plan al principio de mi...</p>
+                    <a href="#services" class="services__card-btn scroll">
+                        <img src="assets/arrow.svg" alt="arrow" loading="lazy">
+                    </a>
+                </li>
+                 <!-- Card Service 4 -->
+                <li class="services__card">
+                    <div class="services__card-figure">
+                        <img src="assets/seo.png" alt="seo" loading="lazy">
+                    </div>
+                    <h3 class="services__card-title">SEO</h3>
+                    <p class="services__card-paragraph">Contar con una página web para tu marca o empresa es la base de cualquier presencia...</p>
+                    <a href="#services" class="services__card-btn scroll">
+                        <img src="assets/arrow.svg" alt="arrow" loading="lazy">
+                    </a>
+                </li>         
+            </ul>
+            <!-- Services Modal-->
+            <ul class="services__modals">
+                <!-- Modal Service 1 -->
+                <li class="services__modal">
+                    <div class="services__modal-body">
+                        <!-- Modal Image -->
+                        <div class="services__modal-img" style="background-image: url(assets/service-development.jpg);">
+                            <div class="services__modal-close">
+                                <img src="assets/close.png" alt="close" loading="lazy">
+                            </div>
+                        </div>
+                        <!-- Modal Description -->
+                        <div class="services__modal-description">
+                            <h3 class="services__modal-title">Desarrollo Frotend</h3>
+                            <h4 class="services__modal-subtitle">Detalles</h4>
+                            <p class="services__modal-paragraph">Como desarrollador Frontend me encargo de llevar a cabo la maquetación de sitios web, asegunradome de que estos cumplan con la filosofía  de un diseño adaptable a las distintas pantallas de dispositivos, y que además de eso tengan una excelente optimización y compatibilidad con los distintos navegadores existentes.</p>
+                        </div>  
+                    </div>
+                </li>
+                <!-- Modal Service 2-->
+                <li class="services__modal">
+                    <div class="services__modal-body">
+                        <!-- Modal Image -->
+                        <div class="services__modal-img" style="background-image: url(assets/service-hosting.jpg);">
+                            <div class="services__modal-close">
+                                <img src="assets/close.png" alt="close" loading="lazy">
+                            </div>
+                        </div>
+                        <!-- Modal Description -->
+                        <div class="services__modal-description">
+                            <h3 class="services__modal-title">Hosting y Dominio</h3>
+                            <h4 class="services__modal-subtitle">Detalles</h4>
+                            <p class="services__modal-paragraph">Ambos son elementos esenciales de un sitio web. En síntesis, el nombre de dominio es la dirección del sitio, mientras que el hosting o alojamiento web proporciona el espacio y los recursos necesarios para ponerlo en marcha.</p>
+                        </div>
+                    </div>
+                </li>
+                <!-- Modal Service 3 -->
+                <li class="services__modal">
+                    <div class="services__modal-body">
+                        <!-- Modal Image -->
+                        <div class="services__modal-img" style="background-image: url(assets/service-desing.jpg);">
+                            <div class="services__modal-close">
+                                <img src="assets/close.png" alt="close" loading="lazy">
+                            </div>
+                        </div>
+                        <!-- Modal Description -->
+                        <div class="services__modal-description">
+                            <h3 class="services__modal-title">Diseño Web</h3>
+                            <h4 class="services__modal-subtitle">Detalles</h4>
+                            <p class="services__modal-paragraph">Aunque diseñar sitios web no formaba parte de mi plan al principio de mi aprendizaje, con el tiempo está área me comenzó a fascinar, esto debido a la cantidad de tiempo que pasaba realizando practicas las cuales a la final me llevaron a hacer diseños por hobby en programas como Figma o Adobe XD.</p>
+                        </div>
+                    </div>
+                </li>
+                <!-- Modal Service 4 -->
+                <li class="services__modal">
+                    <div class="services__modal-body">
+                        <!-- Modal Image -->
+                        <div class="services__modal-img" style="background-image: url(assets/service-seo.jpg);">
+                            <div class="services__modal-close">
+                                <img src="assets/close.png" alt="close" loading="lazy">
+                            </div>
+                        </div>
+                        <!-- Modal Description -->
+                        <div class="services__modal-description">
+                            <h3 class="services__modal-title">SEO</h3>
+                            <h4 class="services__modal-subtitle">Detalles</h4>
+                            <p class="services__modal-paragraph">Contar con una página web para tu marca o empresa es la base de cualquier presencia digital, pero el esfuerzo de crearla no sirve de nada si no te aseguras de que tu audiencia la encuentre. Por eso, es imprescindible hacer que Google funcione a tu favor utilizando técnicas de posicionamiento que permitan que tu sitio se muestre en los primeros resultados de búsqueda del navegador.</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <!-- Services Skills-->
+            <ul class="services__skills">
+               <li><img src="assets/html.png" alt="html" loading="lazy"></li>
+               <li><img src="assets/css.png" alt="css" loading="lazy"></li>
+               <li><img src="assets/sass.png" alt="sass" loading="lazy"></li>
+               <li><img src="assets/js.png" alt="javascript" loading="lazy"></li>
+               <li><img src="assets/react.png" alt="react" loading="lazy"></li>
+            </ul>
+        </section>
+        <!-- ? Section Portfolio -->
+        <section class="portfolio" id="portfolio">
+            <!-- Portfolio Information -->
+            <div class="portfolio__info">
+                <div>
+                    <span class="portfolio__span">PROYECTOS DE TRABAJO</span>
+                    <h2 class="portfolio__title">Mi portafolio</h2>
+                </div>
+                <div>
+                    <p class="portfolio__paragraph">Echa un vistazo a los últimos proyectos que he desarrollado este mes, aun hay algunos mas avanzados que están fase de desarrollo, sin embargo, una vez que estén listo serán publicados. </p>
+                </div> 
+            </div>
+             <!-- Portfolio Projects -->
+            <ul class="portfolio__projects">
+                 <!-- Portfolio Project 1 -->
+                <li class="portfolio__project portfolio__project--1">
+                    <div class="portfolio__project-img">
+                        <img src="assets/project-1.jpg" alt="project-1" loading="lazy">
+                    </div>
+                    <h3 class="portfolio__project-title">Landing Page</h3>
+                    <p class="portfolio__project-paragraph">SEO</p>
+                </li>
+                 <!-- Portfolio Project 2 -->
+                <li class="portfolio__project portfolio__project--2">
+                    <div class="portfolio__project-img">
+                        <img src="assets/project-2.jpg" alt="project-2" loading="lazy">
+                    </div>
+                    <h3 class="portfolio__project-title">Portafolio</h3>
+                    <p class="portfolio__project-paragraph">Diseño</p>
+                </li>
+                 <!-- Portfolio Project 3 -->
+                <li class="portfolio__project portfolio__project--3">
+                    <div class="portfolio__project-img">
+                        <img src="assets/project-3.jpg" alt="project-3" loading="lazy">
+                    </div>
+                    <h3 class="portfolio__project-title">Landing Page</h3>
+                    <p class="portfolio__project-paragraph">Educación</p>
+                </li>
+                 <!-- Portfolio Project 4 -->
+                <li class="portfolio__project portfolio__project--4">
+                    <div class="portfolio__project-img">
+                        <img src="assets/comming-soon-large.jpg" alt="project-4" loading="lazy">
+                    </div>
+                    <h3 class="portfolio__project-title">Proyecto</h3>
+                    <p class="portfolio__project-paragraph">Descripción</p>
+                </li>
+                 <!-- Portfolio Project 5 -->
+                <li class="portfolio__project portfolio__project--5">
+                    <div class="portfolio__project-img">
+                        <img src="assets/comming-soon-small.jpg" alt="project-5" loading="lazy">
+                    </div>
+                    <h3 class="portfolio__project-title">Proyecto</h3>
+                    <p class="portfolio__project-paragraph">Descripción</p>
+                </li>
+                 <!-- Portfolio Project 6 -->
+                <li class="portfolio__project portfolio__project--6">
+                    <div class="portfolio__project-img">
+                        <img src="assets/comming-soon-large.jpg" alt="project-6" loading="lazy">
+                    </div>
+                    <h3 class="portfolio__project-title">Proyecto</h3>
+                    <p class="portfolio__project-paragraph">Descripción</p>
+                </li>
+            </ul>
+             <!-- Portfolio Modals -->
+            <ul class="portfolio__modals">
+                <!-- Modal Project 1 -->
+                <li class="portfolio__modal">
+                    <div class="portfolio__modal-body">
+                        <!-- Modal Image -->
+                        <div class="portfolio__modal-img" style="background-image: url(assets/modal-project-1.jpg);">
+                            <div class="portfolio__modal-close">
+                                <img src="assets/close.png" alt="close">
+                            </div>
+                        </div>
+                        <!-- Modal Description -->
+                        <div class="portfolio__modal-description">
+                            <h3 class="portfolio__modal-title">Landing Page - SEO</h3>
+                            <h4 class="portfolio__modal-subtitle">Detalles</h4>
+                            <p class="portfolio__modal-paragraph">Una plantilla simple completamente codificada con HTML, CSS y un poco de JS. El objetivo de esta página es ofrecer servicios de SEO a los visitantes.</p>
+                        </div>
+                        <!-- Modal Details -->
+                        <div class="portfolio__modal-details">
+                            <h3 class="portfolio__modal-title">Cliente</h3>
+                            <p class="portfolio__modal-paragraph">Personal</p>
+                            <h3 class="portfolio__modal-title">Categoría</h3>
+                            <p class="portfolio__modal-paragraph">Landing Page</p>
+                            <h3 class="portfolio__modal-title">Fecha</h3>
+                            <p class="portfolio__modal-paragraph">10 de Junio, 2022</p>
+                            <h3 class="portfolio__modal-title">URL</h3>
+                            <p class="portfolio__modal-paragraph">
+                                <a href="https://axeljimz.github.io/Seo-Landing/" target="_blank">Demo</a> 
+                            </p>
+                        </div>  
+                    </div>
+                </li>
+                <!-- Modal Project 2 -->
+                <li class="portfolio__modal">
+                    <div class="portfolio__modal-body">
+                        <!-- Modal Image -->
+                        <div class="portfolio__modal-img" style="background-image: url(assets/modal-project-2.jpg);">
+                            <div class="portfolio__modal-close">
+                                <img src="assets/close.png" alt="close">
+                            </div>
+                        </div>
+                        <!-- Modal Description -->
+                        <div class="portfolio__modal-description">
+                            <h3 class="portfolio__modal-title">Portafolio - Diseño</h3>
+                            <h4 class="portfolio__modal-subtitle">Detalles</h4>
+                            <p class="portfolio__modal-paragraph">Una plantilla sencilla diseñada en Figma, cuenta con un estilo minimalista y su objetivo principal es abarcar la información mas importante que requiere un portafolio.</p>
+                        </div>
+                        <!-- Modal Details -->
+                        <div class="portfolio__modal-details">
+                            <h3 class="portfolio__modal-title">Cliente</h3>
+                            <p class="portfolio__modal-paragraph">Personal</p>
+                            <h3 class="portfolio__modal-title">Categoría</h3>
+                            <p class="portfolio__modal-paragraph">Diseño</p>
+                            <h3 class="portfolio__modal-title">Fecha</h3>
+                            <p class="portfolio__modal-paragraph">6 de Junio, 2022</p>
+                            <h3 class="portfolio__modal-title">URL</h3>
+                            <p class="portfolio__modal-paragraph">
+                                <a href="https://www.figma.com/proto/VhiqGRHAWugbkPfVPQyUvB/Axel-Jim%C3%A9nez---Project-2?node-id=0%3A41&scaling=min-zoom&page-id=0%3A1" target="_blank">Demo</a> 
+                            </p>
+                        </div>  
+                    </div>
+                </li>
+                <!-- Modal Project 3 -->
+                <li class="portfolio__modal">
+                    <div class="portfolio__modal-body">
+                        <!-- Modal Image -->
+                        <div class="portfolio__modal-img" style="background-image: url(assets/modal-project-3.jpg);">
+                            <div class="portfolio__modal-close">
+                                <img src="assets/close.png" alt="close">
+                            </div>
+                        </div>
+                        <!-- Modal Description -->
+                        <div class="portfolio__modal-description">
+                            <h3 class="portfolio__modal-title">Landing Page - Educación</h3>
+                            <h4 class="portfolio__modal-subtitle">Detalles</h4>
+                            <p class="portfolio__modal-paragraph">Esta plantilla esta orientada a proporcionar información a visitantes cuyo interés sea el de adquirir algún servicio en cuando a estudios. Cuenta con un bonito efecto parallax y esta codificada en HTML, CSS y JS.</p>
+                        </div>
+                        <!-- Modal Details -->
+                        <div class="portfolio__modal-details">
+                            <h3 class="portfolio__modal-title">Cliente</h3>
+                            <p class="portfolio__modal-paragraph">Personal</p>
+                            <h3 class="portfolio__modal-title">Categoría</h3>
+                            <p class="portfolio__modal-paragraph">Landing Page</p>
+                            <h3 class="portfolio__modal-title">Fecha</h3>
+                            <p class="portfolio__modal-paragraph">12 de Junio, 2022</p>
+                            <h3 class="portfolio__modal-title">URL</h3>
+                            <p class="portfolio__modal-paragraph">
+                                <a href="https://axeljimz.github.io/Education-Landing/" target="_blank">
+                                    Demo
+                                </a>
+                            </p>
+                        </div>  
+                    </div>
+                </li>
+                <!-- ! Modal Project 4 - Comming Soon  -->
+                <!-- <li class="portfolio__modal">
+                    <div class="portfolio__modal-body">
+                        Modal Image
+                        <div class="portfolio__modal-img" style="background-image: url(assets/insert-image.jpg);">
+                            <div class="portfolio__modal-close">
+                                <img src="assets/close.png" alt="close">
+                            </div>
+                        </div>
+                        Modal Description
+                        <div class="portfolio__modal-description">
+                            <h3 class="portfolio__modal-title">Project 4</h3>
+                            <h4 class="portfolio__modal-subtitle">Details</h4>
+                            <p class="portfolio__modal-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti sit mollitia quibusdam magnam. Commodi, minima deleniti esse, id enim aliquid, aut aperiam et officia alias facere fugit obcaecati magnam eaque?</p>
+                            <p class="portfolio__modal-paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit sequi placeat aliquam, fugit soluta et commodi cumque libero consequatur accusamus magnam iure, amet obcaecati maiores dolorem doloremque. Odio, fugiat impedit.</p>
+                        </div>
+                        Modal Details
+                        <div class="portfolio__modal-details">
+                            <h3 class="portfolio__modal-title">Client</h3>
+                            <p class="portfolio__modal-paragraph">Name Surname</p>
+                            <h3 class="portfolio__modal-title">Category</h3>
+                            <p class="portfolio__modal-paragraph">Landing Page</p>
+                            <h3 class="portfolio__modal-title">Date</h3>
+                            <p class="portfolio__modal-paragraph">April 22, 2022</p>
+                            <h3 class="portfolio__modal-title">URL</h3>
+                            <p class="portfolio__modal-paragraph">www.someurl.com</p>
+                        </div>  
+                    </div>
+                </li> -->
+                <!-- ! Modal Project 5 - Comming Soon  -->
+                <!-- <li class="portfolio__modal">
+                    <div class="portfolio__modal-body">
+                        Modal Image
+                        <div class="portfolio__modal-img" style="background-image: url(assets/insert-image.jpg);">
+                            <div class="portfolio__modal-close">
+                                <img src="assets/close.png" alt="close">
+                            </div>
+                        </div>
+                        Modal Description
+                        <div class="portfolio__modal-description">
+                            <h3 class="portfolio__modal-title">Project 5</h3>
+                            <h4 class="portfolio__modal-subtitle">Details</h4>
+                            <p class="portfolio__modal-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti sit mollitia quibusdam magnam. Commodi, minima deleniti esse, id enim aliquid, aut aperiam et officia alias facere fugit obcaecati magnam eaque?</p>
+                            <p class="portfolio__modal-paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit sequi placeat aliquam, fugit soluta et commodi cumque libero consequatur accusamus magnam iure, amet obcaecati maiores dolorem doloremque. Odio, fugiat impedit.</p>
+                        </div>
+                        Modal Details
+                        <div class="portfolio__modal-details">
+                            <h3 class="portfolio__modal-title">Client</h3>
+                            <p class="portfolio__modal-paragraph">Name Surname</p>
+                            <h3 class="portfolio__modal-title">Category</h3>
+                            <p class="portfolio__modal-paragraph">Landing Page</p>
+                            <h3 class="portfolio__modal-title">Date</h3>
+                            <p class="portfolio__modal-paragraph">April 22, 2022</p>
+                            <h3 class="portfolio__modal-title">URL</h3>
+                            <p class="portfolio__modal-paragraph">www.someurl.com</p>
+                        </div>  
+                    </div>
+                </li> -->
+                <!-- ! Modal Project 6 - Comming Soon  -->
+                <!-- <li class="portfolio__modal">
+                    <div class="portfolio__modal-body">
+                        Modal Image
+                        <div class="portfolio__modal-img" style="background-image: url(assets/insert-image.jpg);">
+                            <div class="portfolio__modal-close">
+                                <img src="assets/close.png" alt="close">
+                            </div>
+                        </div>
+                        Modal Description
+                        <div class="portfolio__modal-description">
+                            <h3 class="portfolio__modal-title">Project 6</h3>
+                            <h4 class="portfolio__modal-subtitle">Details</h4>
+                            <p class="portfolio__modal-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti sit mollitia quibusdam magnam. Commodi, minima deleniti esse, id enim aliquid, aut aperiam et officia alias facere fugit obcaecati magnam eaque?</p>
+                            <p class="portfolio__modal-paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit sequi placeat aliquam, fugit soluta et commodi cumque libero consequatur accusamus magnam iure, amet obcaecati maiores dolorem doloremque. Odio, fugiat impedit.</p>
+                        </div>
+                        Modal Details
+                        <div class="portfolio__modal-details">
+                            <h3 class="portfolio__modal-title">Client</h3>
+                            <p class="portfolio__modal-paragraph">Name Surname</p>
+                            <h3 class="portfolio__modal-title">Category</h3>
+                            <p class="portfolio__modal-paragraph">Landing Page</p>
+                            <h3 class="portfolio__modal-title">Date</h3>
+                            <p class="portfolio__modal-paragraph">April 22, 2022</p>
+                            <h3 class="portfolio__modal-title">URL</h3>
+                            <p class="portfolio__modal-paragraph">www.someurl.com</p>
+                        </div>  
+                    </div>
+                </li> -->
+            </ul>
+        </section>
+         <!-- ? Section Portfolio Skills-->
+         <section class="portfolio portfolio--skills">
+              <!-- Portfolio Skills Information -->
+            <div class="portfolio__info portfolio__info--skills">
+                <span class="portfolio__span">Habilidades</span>
+                <h2 class="portfolio__title">Mis Habilidades de Solución</h2>
+                <p class="portfolio__paragraph">Como mayormente me he dedicado al desarrollo Frontend, estos últimos meses me he dedicado a desarrollar proyectos  previamente diseñados , por lo que, considero que mi zona de confort es la parte de la maquetación. Por otro lado, aunque me gusta el área del diseño web, actualmente me toma mas tiempo terminar estos proyectos.</p>
+                <!-- Portfolio Skills -->
+                <ul class="portfolio__progress">
+                    <li>
+                        <div class="description">
+                            <h3>Frontend Development</h3>
+                            <p>90%</p>
+                        </div>
+                        <div class="bar">
+                            <div class="bar-90"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="description">
+                            <h3>Backend Development</h3>
+                            <p>20%</p>
+                        </div>
+                        <div class="bar">
+                            <div class="bar-20"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="description">
+                            <h3>Web Desing</h3>
+                            <p>75%</p>
+                        </div>
+                        <div class="bar">
+                            <div class="bar-75"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- Portfolio Skills Image -->
+            <div class="portfolio__img">
+                <img src="assets/skills.png" alt="skills" loading="lazy">
+            </div>        
+         </section>
+          <!-- ? Section Testimonials-->
+         <!-- <section class="testimonials" id="testimonials">
+              Testimonials Information
+           <div class="testimonials__info">
+            <span class="testimonials__span">LO QUE DICEN LOS CLIENTES</span>
+            <h2 class="testimonials__title">Mis Testimonios</h2>
+           </div>
+            Testimonials Clients - Modify Content in testimonials.js
+          <ul class="testimonials__users">
+            <li class="testimonials__img">
+                <img src="assets/testimonials.jpg" alt="testimonials" loading="lazy">
+            </li>
+            <li class="testimonials__description">
+                <p class="testimonials__paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ab magni necessitatibus voluptatum iste pariatur, amet sapiente, sint dicta temporibus assumenda? Ipsa quaerat libero dignissimos vitae cumque saepe necessitatibus quo?
+                </p>
+                <div>
+                    <div class="testimonials__photo">
+                        <img class="testimonials__src" src="assets/client-1.jpg" alt="client-1" loading="lazy">
+                    </div>
+                    <div>
+                        <h3 class="testimonials__name">Andrés Vargas</h3>
+                        <p class="testimonials__profession">Diseñador Gráfico</p>
+                    </div>    
+                </div>
+            </li>
+            <li class="testimonials__controls">
+                <span class="testimonials__button">
+                    <img src="assets/arrow.svg" alt="arrow">
+                </span>
+                <span class="testimonials__button">
+                    <img src="assets/arrow.svg" alt="arrow" loading="lazy">
+                </span>
+            </li>
+          </ul>    
+         </section> -->
+    </main>
+    <!-- Footer -->
+    <footer class="contact" id="contact">
+         <!-- Footer Information -->
+        <div class="contact__info">
+            <h2 class="contact__title">Quiero saber de usted <b>Contácteme!</b></h2>
+        </div>
+         <!-- Footer Form-->
+        <div class="contact__form">
+            <form id="form-footer" action="https://formsubmit.co/gabrielmalaver565@gmail.com" method="POST">
+                <label>
+                    <span>Tu nombre:</span>
+                    <input type="text" id="Name" name="Name" placeholder="Nombre"  required/>
+                </label>
+                <label>
+                    <span>Tema:</span>
+                    <input type="text" id="subject" name="Subject" placeholder="Tema" required/>
+                </label>
+                <label>
+                    <span>Tu correo electrónico:</span>
+                    <input type="email" id="email" name="Email" placeholder="Correo" />
+                </label>
+                <label>
+                    <span>Número de teléfono:</span>
+                    <input type="number" id="phone" name="Phone" placeholder="+00 (0000) 000 00" />
+                </label>
+                <label>
+                    <span>Mensaje:</span>
+                   <textarea name="message" id="Message" placeholder="Escriba su mensaje aqui" ></textarea>
+                </label>
+                <div>
+                    <button class="contact__btn">
+                        Aplique ahora
+                        <img src="assets/play.svg" alt="play">
+                    </button>
+                </div> 
+            </form>
+        </div>
+         <!-- Footer Description-->
+        <div class="contact__description">
+            <!-- Address -->
+            <h3 class="contact__address">La Asunción, Nueva Esparta, <b>Venezuela.</b></h3>
+            <!-- Cards Personal Information -->
+            <ul class="contact__cards">
+                <!-- Phone -->
+                <li class="contact__card">
+                    <div class="contact__card-figure">
+                        <img src="assets/call.svg" alt="call">
+                    </div> 
+                    <div class="contact__card-info">
+                        <h4 class="contact__card-title">Teléfono de contacto</h4>
+                        <p class="contact__card-paragraph">Proximamente</p>
+                    </div>  
+                </li>
+                <!-- Email -->
+                <li class="contact__card">
+                    <div class="contact__card-figure">
+                        <img src="assets/mail.svg" alt="mail">
+                    </div> 
+                    <div class="contact__card-info">
+                        <h4 class="contact__card-title">Correo de contacto</h4>
+                        <p class="contact__card-paragraph">jimenezaxel565@gmail.com</p>
+                    </div>  
+                </li>     
+            </ul>
+            <div class="contact__copyright">
+                <h3>Creado por <b>Axel Jiménez</b></h3>
+            </div>
+        </div>
+    </footer>
+    <!-- Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+    <!-- Loader -->
+    <div class="loader">
+         <div class="wrapper">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="shadow"></div>
+            <div class="shadow"></div>
+            <div class="shadow"></div>
+            <span>Loading</span>
+        </div>
+    </div> 
+    <!-- Scripts -->
+    <script src="js/navbar.js"></script>
+    <script src="js/services__modal.js"></script>
+    <script src="js/portfolio__modals.js"></script>
+    <script src="js/testimonials.js"></script>
+    <script src="js//scroll.js"></script>
+    <script src="js/cursor.js"></script>
+    <!-- <script src="js/preventDefault.js"></script> -->
+    <script src="js/loader.js"></script>
+</body>
+</html>
